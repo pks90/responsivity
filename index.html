@@ -20,6 +20,45 @@
 			margin:auto;
 			background-color:#F0F0F0;
 		    }
+		    
+		    #sizeofdivwel
+			{
+			height:300px;
+			margin:auto;
+		    }
+		    
+		    .rounded-corners {
+     		-moz-border-radius: 10px;
+    		-webkit-border-radius: 10px;
+    		-khtml-border-radius: 10px;
+    		border-radius: 10px;
+			}
+			
+			a
+			{
+			font-family: monospace;
+			color: blue;
+			font-size: 20px;
+			}
+			
+			#imgid
+			{
+			transform:rotate(7deg);
+			-ms-transform:rotate(7deg); /* IE 9 */
+			-moz-transform:rotate(7deg); /* Firefox */
+			-webkit-transform:rotate(7deg); /* Safari and Chrome */
+			-o-transform:rotate(7deg); /* Opera */
+			}
+		    
+		    #imgid1
+			{
+			transform:rotate(-7deg);
+			-ms-transform:rotate(-7deg); /* IE 9 */
+			-moz-transform:rotate(-7deg); /* Firefox */
+			-webkit-transform:rotate(-7deg); /* Safari and Chrome */
+			-o-transform:rotate(-7deg); /* Opera */
+			}
+	
 		</style>
 		
 		
@@ -39,6 +78,10 @@
 	</head>
 	<body>
 		
+		<div style="background-color: #333333;z-index: 100;position: fixed;height: 50px;width: 250px;" class="rounded-corners">
+          <center><font style="font-size:30px;font-family: monospace;color: white;font-weight: bold;text-shadow: 1px 1px yellow;" class="fnt">pKs</font></center>		
+          <center><font style="font-size:14px;font-family: monospace;color: white;font-weight: bold;" class="fnt">acronym for PrateeK Sharma</font></center>		
+		</div>
 		
 		<div id="impress">
 			<div class="no-support-message">
@@ -47,8 +90,8 @@
 			
 			
 			<div class="step" data-x="-500" data-y="0">
-						<div id="sizeofdiv" style="width:900px;height:450px;">
-					     <img alt="" src="images/WelcomeFlourishFrameHD.jpg" width="900px;" height="400px;">
+						<div id="sizeofdivwel" style="width:900px;height:450px;">
+					     <img alt="" src="images/welcome.gif" width="900px;" height="400px;">
 					     <br/>
                          Please keep the mouse aside and use left/right arrows of your keyboard to go further.
 				</div>
@@ -57,7 +100,7 @@
 			<div class="step" data-x="800" data-y="0">
 				<div id="sizeofdiv" style="width:900px;height:400px;">
 				<br/><br/><br/>
-				<center><font style="font-size:40px;font-family: monospace;color: #4DB79F;font-weight: bold;">/Architect<font color="gray;">S</font>&nbsp;/Developer<font color="gray;">S</font> &nbsp;/Designer<font color="gray;">S</font></font><br/></center>
+				<center><font style="font-size:40px;font-family: monospace;color: #4DB79F;font-weight: bold;">/Architect&nbsp;/Developer&nbsp;/Designer &nbsp;</font><br/></center>
 				<br/><br/><br/><br/><br/>
 				<center><font style="font-size:180px;;font-family: monospace;color: white;font-weight: bold;text-shadow: 2px 2px #5C5C5C;" class="fnt">pKs</font><br/></center>
 				<br/><br/><br/><br/>
@@ -69,19 +112,18 @@
 			<div class="step" data-x="600" data-y="-500">
 				<div id="sizeofdiv" style="width:900px;height:500px;">
 					<br/>
-				    <font style="font-size:50px;;font-family: monospace;color: white;font-weight: bold;text-shadow: 2px 2px #5C5C5C;" class="fnt">Professional profile</font>
+				    <font style="font-size:50px;;font-family: monospace;color: white;font-weight: bold;text-shadow: 2px 2px #5C5C5C;" class="fnt">Tech profile</font>
 					<br/><br/>
-					<a href="http://stackoverflow.com/users/1503130/pks">pKs's Stackoverflow</a>
+					<a href="http://stackoverflow.com/users/1503130/pks">Stackoverflow</a>
 					<br/>
 					<a href="http://stackoverflow.com/users/1503130/pks">
-							<img src="http://stackoverflow.com/users/flair/1503130.png" width="208" height="58" alt="profile for pKs at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for pKs at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
-  				    </a>
+					<img src="http://stackoverflow.com/users/flair/1503130.png" width="208" height="58" alt="profile for pKs at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for pKs at Stack Overflow, Q&amp;A for professional and enthusiast programmers"></a>
   				    <br/><br/><br/>
-  				    <a href="http://pakush.blogspot.in/">pKs's Blog</a>
+  				    <a href="http://pakush.blogspot.in/">Blogspot</a>
   				    <br/>
   				    <a href="http://pakush.blogspot.in/"><img src="images/blog.png" width="870px;"></a>
   				    <br/><br/><br/>
-  				    <a href="https://www.dropbox.com/s/uxwwmghvlksid1t/Prateek%20Kumar.pdf">pKs's Resume</a>
+  				    <a href="https://www.dropbox.com/s/uxwwmghvlksid1t/Prateek%20Kumar.pdf">Resume</a>
   				    <br/>
   				    <a href="https://www.dropbox.com/s/uxwwmghvlksid1t/Prateek%20Kumar.pdf"><img src="images/ios.png" width="40px;" height="40px;"/><img src="images/webtech.png" width="40px;" height="40px;"/><img src="images/androidlogo.png" width="40px;" height="40px;"/><img src="images/hibernate.png" width="50px;" height="40px;"/><img src="images/java.png" width="40px;" height="40px;"/><img src="images/struts2.png" width="40px;" height="40px;"/><img src="images/tomcat.png" width="40px;" height="40px;"/><img src="images/mavent.gif" width="50px;" height="40px;"/><img src="images/ubersvn_logo.png" width="40px;" height="40px;"/></a>
   				    <br/><br/>
@@ -89,58 +131,62 @@
 			</div>
 			
 			<div class="step" data-x="500" data-y="-1100" data-scale="0.5">
-				<div id="sizeofdiv" style="width:1000px;height:800px;">
+				<div id="sizeofdiv" style="width:1000px;height:700px;">
 					<br/>
-					<font style="font-size:50px;;font-family: monospace;color: white;font-weight: bold;text-shadow: 2px 2px #5C5C5C;" class="fnt">Social profile</font>
+					<font style="font-size:50px;;font-family: monospace;color: white;font-weight: bold;text-shadow: 2px 2px #5C5C5C;" class="fnt">Social Active At!!</font>
 					<br/><br/>
-  				    <a href="http://www.facebook.com/1990.prateek">Join me on Facebook</a>
+  				    <a href="http://www.facebook.com/1990.prateek"><img src="images/facebook1.jpg" width="150px;" height="50px;"></a>
+  				    &nbsp;<a href="http://twitter.com/pakush1"><img src="images/twitterlogo.png" width="150px;" height="50px;"></a>
+  				    &nbsp;<a href="https://pinterest.com/prateekks/"><img src="images/Pinterest_Logo.png" width="150px;" height="50px;"></a>
   				    <br/>
-  				    <a href="http://www.facebook.com/1990.prateek"><img src="images/fbcover.png" width="800px;" height="230px;"></a>
+  				    <a href="http://www.facebook.com/1990.prateek"><img src="images/fbcover.jpg" width="400px;" height="230px;"></a>
+  				    <a href="http://twitter.com/pakush1"><img src="images/twitter.jpg" width="400px;" height="230px;"></a>
   				    <br/>
-  				    <a href="http://twitter.com/pakush1">Follow me on Twitter</a>
-  				    <br/>
-  				    <a href="http://twitter.com/pakush1"><img src="images/twitter.png" width="800px;" height="200px;"></a>
-  				    <br/>
-  				    <a href="https://pinterest.com/prateekks/">Pin me on Pinterest</a>
-  				    <br/>
-  				    <a href="https://pinterest.com/prateekks/"><img src="images/pinterest.png" width="800px;" height="200px;"></a>
+  				    <a href="https://pinterest.com/prateekks/"><img src="images/pinterest.jpg" width="800px;" height="280px;"></a>
   				    <br/>
 				</div>
 			</div>
 			
 			<div class="step" data-x="-300" data-y="-800" data-rotate="90">
-				<div id="sizeofdiv" style="width:900px;height:800px;">
+				<div id="sizeofdiv" style="width:900px;height:600px;">
 					<br/>
-					<font style="font-size:50px;;font-family: monospace;color: white;font-weight: bold;text-shadow: 2px 2px #5C5C5C;" class="fnt">I like ...</font>
+					<font style="font-size:50px;font-family: monospace;color: white;font-weight: bold;text-shadow: 2px 2px #5C5C5C;" class="fnt">mmmm I like to ...</font>
 					<br/><br/>
 					
-					<font style="font-size:30px;;font-family: monospace;color: white;font-weight: bold;text-shadow: 2px 2px #5C5C5C;" class="fnt">Playing my acoustic</font>
+					<font style="font-size:15px;;font-family: monospace;color: #333333;font-weight: bold;" class="fnt" id="imgid1">play my acoustic</font>
+		             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		            <font style="font-size:15px;;font-family: monospace;color: brown;font-weight: bold;" class="fnt">read Novels</font>
 					<br/><br/>
-					<img src="images/acoustic.jpg" width="700px;" height="250px;">
-					<br/><br/>
-				    	
-				    <font style="font-size:30px;;font-family: monospace;color: white;font-weight: bold;text-shadow: 2px 2px #5C5C5C;" class="fnt">Reading Novels</font>
-				    	<br/><br/>
-				    	<img src="images/novel.jpg" width="280px;" height="250px;">
-				    <img src="images/novel1.jpg" width="210px;" height="250px;">
-				    <img src="images/novel2.jpg" width="210px;" height="250px;">
+					<img src="images/acoustic.jpg" width="300px;" height="250px;" id="imgid1"/>
+				    <img src="images/novel.jpg" width="170px;" height="250px;" id="imgid"/>
+				    <img src="images/novel1.jpg" width="160px;" height="250px;" id="imgid">
+				    <img src="images/novel2.jpg" width="160px;" height="250px;" id="imgid1"/>
 				    <br/><br/>
+				    <font style="font-size:15px;font-family: monospace;color: blue;font-weight: bold;" class="fnt">google alot!</font>
+					<br/>
+					<img src="images/google.jpg" width="750px;" height="150px;" />
 				</div>
 			</div>
 			
-			<div class="step" data-x="-1200" data-y="-1000" data-rotate-x="60" data-rotate-y="60" data-rotate-z="30">
+			<div class="step" data-x="-1200" data-y="-1000" data-rotate-x="0" data-rotate-y="-10" data-rotate-z="30">
 				<div id="sizeofdiv" style="width:1000px;height:400px;">
 				  <br/><br/>
-				  <font style="font-size:30px;;font-family: monospace;color:#9E9E9E;font-weight: bold;text-shadow: 2px 2px #5C5C5C;" class="fnt">Aah its not a new Question now if you wanna have a website like this. </font>
+				  <font style="font-size:30px;;font-family: monospace;color:#9E9E9E;font-weight: bold;text-shadow: 1px 1px #5C5C5C;" class="fnt">Aah its not a new Question now if you wanna have a website like this. </font>
 				  <br/><br/><br/>
-			      <font style="font-size:40px;;font-family: monospace;color:white;font-weight: bold;text-shadow: 2px 2px #5C5C5C;" class="fnt">No big issue if you are a developer or opensource geek. </font>		
+			      <font style="font-size:40px;;font-family: monospace;color:white;font-weight: bold;text-shadow: 1px 1px #5C5C5C;" class="fnt">No big issue if you are a developer or opensource geek. </font>		
 			      <br/><br/><br/>
-			      <font style="font-size:30px;;font-family: monospace;color:#9E9E9E;font-weight: bold;text-shadow: 2px 2px #5C5C5C;" class="fnt">Keep following my blog, I will update it soon with complete tools and tutorial. </font>				
+			      <font style="font-size:30px;;font-family: monospace;color:#9E9E9E;font-weight: bold;text-shadow: 1px 1px #5C5C5C;" class="fnt">Keep following my blog, I will update it soon with complete tools and tutorial. </font>				
 			      <br/><br/><br/><br/>
 			    </div>
 			</div>
 			
-			<div class="step" data-x="-2600" data-y="-800" data-rotate-x="30" data-rotate-y="-60" data-rotate-z="90" data-scale="4">
+			
+			<div class="step" data-x="-2600" data-y="-800" data-rotate-x="10" data-rotate-y="-10" data-rotate-z="90" data-scale="4">
 		         <b>&copy; impress.js for dynamic effects and respective logos for their owners. </b>
 		    </div>
 			
